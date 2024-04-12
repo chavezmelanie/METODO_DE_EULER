@@ -1,3 +1,4 @@
+#Hay un error dentro del código, marcado en el lugar que correpsonde, fijarse y corregirlo
 #Escribe un codigo en Python que automatice el metodo de Euler para un problema de valor inicial apropiado para el metodo, dando la solucion en otro punto dado. Puedes
 #utilizar un numero de pasos fijo, o variable, introducido por el usuario. En lo posible, la EDO puede ser tambien dada por el usuario.
 
@@ -17,7 +18,7 @@ def euler(f, x0, y0, xf, h):
 def f1(x, y):
     return 0.2 * x * y
 
-y_exacta_1 = math.exp(0.1 * 1.5**2)
+y_exacta_1 = math.exp(0.1 * 1.5**2) #chequear esta solución, tiene un error
 
 # aproximacion con paso de 0.1
 h = 0.1
